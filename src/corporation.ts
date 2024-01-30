@@ -1,4 +1,4 @@
-/** @param {NS} ns */
+// this isn't mine! i will use this to make my own, but still - I DON'T CLAIM TO HAVE MADE THIS!
 export async function main(ns) {
 	/*
 	* Easy-Mode Bitburner Corporation Script for BN3.
