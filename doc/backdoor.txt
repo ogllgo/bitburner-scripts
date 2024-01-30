@@ -1,0 +1,29 @@
+This will get backdoors for everything you can, checking for updates twice a second.
+
+
+Imports and general stuff:
+    if you aren't using a typescript file, you can ignore the import { NS };
+    if it screams because you aren't using TS, replace all the 'let foo:type = baa'
+
+    import { getRoot } is just my personal getRoot function. You can replace it with yours if you'd like, 
+    since it uses constant 'root' instead of 'getroot'.
+    your function will have to return 'true' if the server has a backdoor, or 'false' if it doesn't,
+    since mine relies on that in The Big Continue.
+
+    Functions, for me, require ns AND args to be specified, not just the args. You can remove the (ns)
+    from functions if it yells at you.
+
+Why all servers?
+    You want to have servers like nitesec, I.I.I.I, The-Cave, and more, backdoored.
+    But what if you want to connect to phantasy? You'd either scan-analyze, but that's annoying and clogs the terminal.
+    Besides, what if they add a new faction that's gated behind backdooring?
+    Also, I don't like hardcoding information - it just feels nasty.
+    so, I made a seperate little script. This, as an extra thing, automatically wins the game
+    if you're INT farming, don't run this beyond getting all servers (for obvious reasons)
+
+Why two scripts?
+    because otherwise you'll have to backdoor 90 servers with no speed increases, 
+    and backdoors are slow. it also lets it be cleaner.
+
+Why are there comments?
+    it looks empty otherwise
